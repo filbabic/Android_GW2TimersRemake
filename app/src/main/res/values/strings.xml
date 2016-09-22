@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GuildWars2TimersRemake</string>
+
+    <string name="info">i</string>
+    <string name="dialog_note">In order to subscribe, press and hold the desired event\n on the Timer List.</string>
+    <string name="dialog_dismiss">Dismiss</string>
 </resources>

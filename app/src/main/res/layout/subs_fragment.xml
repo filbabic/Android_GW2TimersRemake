@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/info"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/Primary"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@id/subs_info"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/Tabs_and_Text"
+        android:dividerHeight="2px"
+        android:id="@id/subs_listview"
+        android:layout_above="@id/subs_info"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

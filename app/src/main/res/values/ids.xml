@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="appbar" />
+    <item type="id" name="tablayout" />
+    <item type="id" name="viewpager" />
+    <item type="id" name="events_listview" />
+
+    <item type="id" name="subs_listview" />
+    <item type="id" name="subs_info" />
+
+    <item type="id" name="dialog_note" />
+    <item type="id" name="dismiss_dialog_button" />
+</resources>

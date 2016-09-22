@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/Tabs_and_Text"
+    android:padding="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/dialog_note"
+        android:gravity="center"
+        android:textColor="@color/Primary"
+        android:textSize="18sp"
+        android:text="@string/dialog_note" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_dismiss"
+        android:id="@id/dismiss_dialog_button"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/Tabs_and_Text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/dialog_note"
+        android:layout_margin="12dp" />
+
+</RelativeLayout>
